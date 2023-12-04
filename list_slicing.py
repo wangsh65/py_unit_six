@@ -3,6 +3,20 @@ def main():
     # The list below will be used for all of the exercises below:
     names = ["Abigail", "Brenda", "Chad", "Doug", "Emma", "Francis", "George", "Harold", "Imogen”",
     "Jackie", "Kurt", "Linda"]
+    print(names[0:3])
+    print(names[3:5])
+    print(names[1:6])
+    print(names[5:12])
+    print(names[5:])
+    print(names[11:])
+    print(names[])
+
+
+
+
+
+
+
 
     # Example: print the first three names from the list
     # Answer print(names[0:3])

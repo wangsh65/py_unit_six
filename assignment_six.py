@@ -1,3 +1,9 @@
+# name: Shelly
+# Date : 11/30/2023
+# title: The birthday paradox
+# purpose : to make a random birsday date
+
+
 import random
 
 def get_birthdays():                                                                        # make a function get_birthdays

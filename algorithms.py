@@ -1,11 +1,23 @@
-
+#
 def add_numbers(numbers):
-    """
-    Ex. add_numbers([9, 5, 11, 6, 1, 15]) returns 47
-    :param numbers: a list of numbers
-    :return: the sum of all the numbers in the list
-    """
-    pass # remove this line when starting your function
+#     """
+#     Ex. add_numbers([9, 5, 11, 6, 1, 15]) returns 47
+#     :param numbers: a list of numbers
+#     :return: the sum of all the numbers in the list
+#     """
+    sum = 0
+
+   num = len(numbers)
+   for x in range(num):
+        sum += numbers[x]
+       print(sum)
+
+ myList = [9,5,11,6,1,15]
+add_numbers(myList)
+
+
+
+     # remove this line when starting your function
 
 def get_max(numbers):
     """
@@ -13,7 +25,17 @@ def get_max(numbers):
     :param numbers: a list of numbers
     :return: The largest number in the list
     """
-    pass # remove this line when starting your function
+
+    max_number = numbers[0]
+    num = len(numbers)
+    for x in range(num):
+        if numbers[x] > max_number:
+            max_number = numbers[x]
+    return max_number
+
+myList=[49,23,44,99,34,67,98,0]
+print(get_max(myList))
+        # remove this line when starting your function
 
 def get_min(numbers):
     """
@@ -21,7 +43,8 @@ def get_min(numbers):
     :param numbers: a list of numbers
     :return: The smallest number in the list
     """
-    pass # remove this line when starting your function
+    pass
+# remove this line when starting your function
 
 
 def merge(list1, list2):
